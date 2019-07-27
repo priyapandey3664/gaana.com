@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.logo{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing: -2px;
+
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: -3px 3px 7px rgb(173, 164, 164);
+    text-transform: uppercase;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: space-around;   
+}
+header a{
+    display: inline-block;
+    padding: 30px 0;
+    text-decoration: none;
+}
+
+.search{
+    
+    padding: 2px 3px;
+    background-color: #e72c30;
+    border-radius: 25px;
+}
+.search a{
+    color: white;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    display: inline;
+    list-style: none;
+}
+ul li a {
+    color: rgb(158, 158, 158);
+    padding: 10px;
+}
+.button{
+    border: none;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 25px;
+    padding: 5px 14px;
+    color: #E72C30;
+}
+.button:hover{
+  color: white;
+  background-color: #E72C30;
+}
+.downlmenu{
+    text-transform: capitalize;
+}
+.leftborder ul{
+    border-right: 0.5px solid rgb(158, 158, 158);
+}
+.dAppdeco{
+    padding: none;
+    font-size: 25px;
+}
+.dAppdeco a{
+    padding: 5px 4px;
+}
+#maincontent aside{
+    background: green;
+    position: fixed;
+    width: 120px;
+    height: 95vh;
+}
+#maincontent main{
+    height: 1000px;
+    margin-top:10px;
+    margin-left: 130px;
+    width: 90%;
+    /* background: yellow; */
+    position: relative;
+  }
+
+.main input{
+    width:450px;
+     border-radius: 25px; 
+     padding: 5px 2px;
+    text-decoration: none;
+   
+    
+     }
+
+
+
+.ser{
+    padding: 2px;
+    background-color: #e72c30;
+    border-radius: 25px;
+  
+    height: 25px;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.ser a{
+    color: white;
+    text-decoration: none;
+    text-align: center;  
+}
+
+.ser li{
+    padding-top: 23px;
+    font-weight: lighter;
+
+} 
+
+.grey{
+    border-radius: 25px;
+   backgroud-color: rgb(201, 200, 200);
+   color: #e72c30;
+   width: 90px;
+   margin-left:  120% ;
+}
+
+.fix{
+    
+}
